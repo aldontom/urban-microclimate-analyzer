@@ -1,0 +1,7 @@
+The project was about looking at subway delays in NYC and how weather might play a role in that. I took rider survey answers from 2019 and joined them with weather numbers from NOAA for the JFK spot. It ended up with around fourteen hundred rows after cleaning dates and matching months together. Python was the main tool with pandas and numpy for the data work and then seaborn plus matplotlib for the visuals. Isolation forest from scikit learn helped spot some unusual patterns too.
+
+Merging the files took some time because dates had extra symbols and the time frames did not line up perfectly at first. I think the outer join fixed most of it but there were still a few mismatches left over. The final file had thirty nine columns which felt like a lot to sort through at once.
+
+From what I saw over half the people said they hit delays a few times each week and quite a few more dealt with them daily. The R line and a couple others like the one and the F and seven showed up more often in the frequent delay answers. For July the average temperature was near seventy nine degrees with over five inches of rain which might have added to the issues but I am not totally sure how strong that link is yet.
+
+Some of the patterns were pretty clear but others seemed scattered and I might be missing something in how the survey was collected.

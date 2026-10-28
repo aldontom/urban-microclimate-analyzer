@@ -1,0 +1,7 @@
+# Python environment & cache
+__pycache__/
+*.pyc
+.vscode/
+
+# Ignore large output CSV if preferred (Optional)
+# cleaned_merged_data.csv
